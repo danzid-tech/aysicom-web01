@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Daftar Anime</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+    <script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $("#tabel-data").DataTable();
+      });
+    </script>
+  </head>
+  <body>
+    <!-- bagian header template -->
+    <header>
+      <h1 class="judul">Website UAS Aysicom</h1>
+      <p class="deskripsi">Muhammad Aysicom Paraguay | 432007006200029</p>
+    </header>
+    <!-- akhir bagian header template -->
+
+    <div class="wrap-aysicom">
+      <!-- bagian menu		 -->
+      <nav class="menu">
+        <ul>
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="about.html">About</a>
+          </li>
+          <li>
+            <a href="kontak.html">Kontak</a>
+          </li>
+          <li>
+            <a href="daftar.html">Daftar Anime</a>
+          </li>
+        </ul>
+      </nav>
+      <!-- akhir bagian menu -->
+
+     <!-- bagian sidebar-aysicom website -->
+     <aside class="sidebar-aysicom">
+      <div class="widget-aysicom">
+        <h2>Selamat Datang</h2>
+        <p>Website ini dibuat oleh Aysicom</p>
+      </div>
+      <div class="widget-aysicom">
+        <h2>Download Anime Terbaru</h2>
+        <p>Kalian bisa download anime kesukaan kalian terbaru disini !</p>
+      </div>
+      <div class="widget-aysicom">
+        <h2>Dibuat menggunakan CSS Responsip</h2>
+        <p>Menyesuaikan sesuai perangkat yang dipakai</p>
+      </div>
+    </aside>
+    <!-- akhir bagian sidebar-aysicom website -->
+
+      <!-- bagian konten blog-aysicom -->
+      <div class="blog-aysicom">
+        <div class="conteudo-aysicom">
+          <div class="post-info-aysicom">Di Posting Oleh <b>Aysicom</b></div>
+
+          <h1>Daftar Anime (Menggunakan Plugin DataTable)</h1>
+          <hr />
+          <p>
+            <table id="tabel-data" class="table table-striped table-bordered" width="100%" cellspacing="0">
+        <thead>
+            <tr>
+                <th>Nama Anime</th>
+                <th>Tahun Rilis</th>
+                
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <th>Nama Anime</th>
+                <th>Tahun Rilis</th>
+                
+        </tfoot>
+        <tbody>
+            
+            <tr>
+                <td>Kimetsu No Yaiba</td>
+                <td>2017</td>
+               
+            </tr>
+            <tr>
+                <td>Boruto</td>
+                <td>2017</td>
+               
+            </tr>
+            <tr>
+                <td>Tensei Shitara Slime Datta Ken</td>
+                <td>2019</td>
+               
+            </tr>
+                        <tr>
+                <td>Fire Force</td>
+                <td>2019</td>
+               
+            </tr>
+            
+        </tbody>
+    </table>
+          </p>
+        </div>
+      </div>
+      <!-- akhir bagian konten blog-aysicom -->
+    </div>
+  </body>
+</html>
